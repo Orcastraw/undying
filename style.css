@@ -1,5 +1,45 @@
-*{
-  zoom:0.93;
+@media (min-width: 700px) {
+    *{
+      zoom:0.93;
+    }
+}
+
+@media (min-width: 1000px) {
+    *{
+      zoom:0.96;
+    }
+}
+
+
+@media (min-width: 1500px) {
+    *{
+      zoom:1;
+    }
+}
+
+@media (min-width: 2000px) {
+    *{
+      zoom:1.03;
+    }
+}
+
+@media (min-width: 2500px) {
+    *{
+      zoom:1.06;
+    }
+}
+
+@media (min-width: 3000px) {
+    *{
+      zoom:1.09;
+    }
+}
+
+
+@media (min-width: 3500px) {
+    *{
+      zoom:1.12;
+    }
 }
 
 body{
@@ -390,6 +430,10 @@ aside > div > div {
   object-position: right;
 }
 
+.moo2{
+  background-color: #999;
+}
+
 .pie {
   line-height: 0;
   color: var(--gray);
@@ -398,7 +442,7 @@ aside > div > div {
 .pie__image {
   margin: 0;
   border: 0;
-  max-height: 15rem;
+  /* max-height: 15rem; */
   object-fit: cover;
 }
 .pie__subtitle {
